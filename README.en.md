@@ -2,7 +2,7 @@
 
 A tiny [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that installs a **desktop double-click launcher** for the harness: a `dsh.app` with the official black-whale icon (macOS) or a `dsh.desktop` entry (Linux). Double-click it and the web UI starts and your browser opens. Everything is a plugin — this whole thing is just a bundle.
 
-**Lightweight:** zero dependencies, ~160 KB package (mostly two 1024px icon PNGs; the macOS `.icns` is generated on the fly with the built-in `sips` + `iconutil`). It only touches the desktop side — no terminal command, no bundled scripts in your PATH. The terminal launcher lives in the separate [dsh-launcher](https://github.com/LvienOeria/dsh-launcher) package, so you install exactly what you want.
+**Lightweight:** zero dependencies, ~147 KB package (mostly two 1024px icon PNGs; the macOS `.icns` is generated on the fly with the built-in `sips` + `iconutil`). It only touches the desktop side — no terminal command, no bundled scripts in your PATH. The terminal launcher lives in the separate [dsh-launcher](https://github.com/LvienOeria/dsh-launcher) package, so you install exactly what you want.
 
 ## What it does
 
