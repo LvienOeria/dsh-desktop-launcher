@@ -1,5 +1,8 @@
 # dsh-desktop-launcher
 
+[English](https://github.com/LvienOeria/dsh-desktop-launcher/blob/main/README.en.md) | **中文**
+
+
 一个轻量的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件：安装一个**桌面双击启动器** —— macOS 上是带官方黑色鲸鱼图标的 `dsh.app`，Linux 上是 `dsh.desktop` 入口。双击它，Web UI 启动并自动打开浏览器。Everything is a plugin，这个插件本身就是一个 bundle。
 
 **轻量：** 零依赖，包体积约 147 KB（主要是两张 1024px 图标 PNG；macOS 的 `.icns` 用系统内置 `sips` + `iconutil` 现生成）。只碰桌面侧 —— 不装终端命令、不动 PATH。终端版是独立的 [dsh-launcher](https://github.com/LvienOeria/dsh-launcher) 包，想要什么装什么，绝不捆绑。

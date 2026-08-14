@@ -1,4 +1,6 @@
 # dsh-desktop-launcher
+**English** | [中文](https://github.com/LvienOeria/dsh-desktop-launcher/blob/main/README.md)
+
 
 A tiny [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that installs a **desktop double-click launcher** for the harness: a `dsh.app` with the official black-whale icon (macOS) or a `dsh.desktop` entry (Linux). Double-click it and the web UI starts and your browser opens. Everything is a plugin — this whole thing is just a bundle.
 
