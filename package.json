@@ -1,0 +1,37 @@
+{
+  "name": "dsh-desktop-launcher",
+  "version": "0.1.0",
+  "description": "A tiny dsh plugin that installs a desktop double-click launcher for the harness: a dsh.app with the official whale icon (macOS) or a .desktop entry (Linux). Zero dependencies. The terminal command lives in the separate dsh-launcher package.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "bundle",
+    "launcher",
+    "desktop"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LvienOeria/dsh-desktop-launcher.git"
+  }
+}

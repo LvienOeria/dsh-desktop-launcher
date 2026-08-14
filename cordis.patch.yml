@@ -1,0 +1,25 @@
+# dsh-desktop-launcher bundle patch — installs the desktop double-click
+# launcher (macOS .app with the official whale icon / Linux .desktop entry).
+#
+# Install with (npm or GitHub — plain JS, no build step):
+#   dsh plugin --profile <name> add dsh-desktop-launcher
+#   dsh plugin --profile <name> add github:LvienOeria/dsh-desktop-launcher
+#
+# Customize through your profile's own cordis.patch.yml (later layers win):
+#
+#   - id: dsh-desktop-launcher
+#     config:
+#       launcherName: dsh                      # desktop app / entry name
+#       iconStyle: whale-dark                  # whale | whale-dark
+#       iconFile: ''                           # absolute path to your own .icns/.png
+#       url: http://127.0.0.1:3080             # web UI URL to poll and open
+#       sourceDir: /path/to/deepseek-harness   # run `pnpm dsh web` from a checkout
+#       startCommand: ''                       # fully custom start command (single line)
+#       autoOpenBrowser: true
+#
+# The terminal command launcher is a separate package:
+# dsh-launcher (github:LvienOeria/dsh-launcher)
+#
+- insert:
+    - id: dsh-desktop-launcher
+      name: dsh-desktop-launcher
