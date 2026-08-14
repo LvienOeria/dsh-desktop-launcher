@@ -1,4 +1,6 @@
 # dsh-desktop-launcher
+
+[![npm version](https://img.shields.io/npm/v/dsh-desktop-launcher)](https://www.npmjs.com/package/dsh-desktop-launcher) [![npm downloads](https://img.shields.io/npm/dm/dsh-desktop-launcher)](https://www.npmjs.com/package/dsh-desktop-launcher) [![license](https://img.shields.io/npm/l/dsh-desktop-launcher)](https://github.com/LvienOeria/dsh-desktop-launcher/blob/main/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/LvienOeria/dsh-desktop-launcher)](https://github.com/LvienOeria/dsh-desktop-launcher)
 **English** | [中文](https://github.com/LvienOeria/dsh-desktop-launcher/blob/main/README.md)
 
 
